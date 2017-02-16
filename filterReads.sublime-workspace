@@ -1,0 +1,1275 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"RPM",
+				"RPM_Ratio"
+			],
+			[
+				"rmp",
+				"rpms_c"
+			],
+			[
+				"Nu",
+				"NULL"
+			],
+			[
+				"rpms",
+				"rpms_c"
+			],
+			[
+				"small",
+				"small_RNA_class"
+			],
+			[
+				"countdata_",
+				"countdata_m"
+			],
+			[
+				"count",
+				"countdata"
+			],
+			[
+				"angl",
+				"angle = \tArguments"
+			],
+			[
+				"axis",
+				"axis.text.x"
+			],
+			[
+				"identi",
+				"identity\t{base}"
+			],
+			[
+				"non",
+				"non_struct_counts"
+			],
+			[
+				"elem",
+				"element_text\t{ggplot2}"
+			],
+			[
+				"scal_c",
+				"scale_colour_manual\t(plotAlignmentLength.R)"
+			],
+			[
+				"colorC",
+				"colourCount"
+			],
+			[
+				"tre",
+				"treatment\t(imb_ketting_2016_03_almeida_TAPvsRppH.md)"
+			],
+			[
+				"summar",
+				"summarize\t{dplyr}"
+			],
+			[
+				"facte",
+				"facet_wrap\t(percentage_smallRNA_classes.R)"
+			],
+			[
+				"co",
+				"counts"
+			],
+			[
+				"basen",
+				"basename\t{base}"
+			],
+			[
+				"piR",
+				"piRNA"
+			],
+			[
+				"piRNA",
+				"piRNAs"
+			],
+			[
+				"comm",
+				"common_bed"
+			],
+			[
+				"str",
+				"strand"
+			],
+			[
+				"la",
+				"lapply\t(mRNA_profile_length.Rmd)"
+			],
+			[
+				"inter",
+				"intersect\t(length_and_3end_analysis.sh)"
+			],
+			[
+				"condition",
+				"condition"
+			],
+			[
+				"mut",
+				"mut_bed"
+			],
+			[
+				"ggplot",
+				"ggplot2\t(piRNALengthComparisonPerCluster.Rmd)"
+			],
+			[
+				"loc",
+				"loc$chromosome"
+			],
+			[
+				"chrm",
+				"chromosome"
+			],
+			[
+				"het_",
+				"het_bed"
+			],
+			[
+				"sub",
+				"subj"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"het",
+				"het_bed"
+			],
+			[
+				"data",
+				"data.frame\t{base}"
+			],
+			[
+				"create",
+				"create_length"
+			],
+			[
+				"chr",
+				"chromosome\t(piRNA_length_clustering.md)"
+			],
+			[
+				"df",
+				"dfrow"
+			],
+			[
+				"gene",
+				"geneset1"
+			],
+			[
+				"rowna",
+				"rownames\t{base}"
+			],
+			[
+				"expres",
+				"expression"
+			],
+			[
+				"chrom",
+				"chromosome"
+			],
+			[
+				"cut",
+				"cut_l"
+			],
+			[
+				"crom",
+				"chromosome"
+			],
+			[
+				"cho",
+				"chromosomes"
+			],
+			[
+				"set",
+				"setnames"
+			],
+			[
+				"Cuff",
+				"CuffDiff2"
+			],
+			[
+				"cuff_",
+				"cuff_logs"
+			],
+			[
+				"loge",
+				"log2FoldChange"
+			],
+			[
+				"de",
+				"deseq2"
+			],
+			[
+				"ensem",
+				"ensembl_gene_id"
+			],
+			[
+				"cuff",
+				"cuffdiff2"
+			],
+			[
+				"gtf",
+				"gtf_file"
+			],
+			[
+				"ref",
+				"refseq_mrna"
+			],
+			[
+				"resc",
+				"resuc1"
+			],
+			[
+				"facto",
+				"factor"
+			],
+			[
+				"if",
+				"ifelse"
+			],
+			[
+				"pad",
+				"padjust"
+			],
+			[
+				"geom",
+				"geom_bar"
+			],
+			[
+				"base",
+				"baseMean"
+			],
+			[
+				"expe",
+				"expected"
+			],
+			[
+				"p",
+				"pvalue"
+			],
+			[
+				"table",
+				"table_fisher"
+			],
+			[
+				"chro",
+				"chromosome"
+			],
+			[
+				"chromo",
+				"chromosome"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"mat",
+				"matrix"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"dv",
+				"david_table"
+			],
+			[
+				"organis",
+				"organism=\"zebrafish"
+			],
+			[
+				"padj",
+				"padj"
+			],
+			[
+				"up",
+				"up_go"
+			],
+			[
+				"dev",
+				"devtools"
+			],
+			[
+				"pa",
+				"packages"
+			],
+			[
+				"ins",
+				"install"
+			],
+			[
+				"group",
+				"groupID"
+			],
+			[
+				"list",
+				"listType"
+			],
+			[
+				"wri",
+				"write.table"
+			],
+			[
+				"spl",
+				"splitPlus"
+			],
+			[
+				"col",
+				"colnames"
+			],
+			[
+				"cluster",
+				"clusterProfiler"
+			],
+			[
+				"enrich",
+				"enrichDAVID"
+			],
+			[
+				"dupl",
+				"duplicated"
+			],
+			[
+				"ex",
+				"exon"
+			],
+			[
+				"dxd",
+				"dxdr2"
+			],
+			[
+				"bins",
+				"bins_subset"
+			],
+			[
+				"fullmode",
+				"full_model"
+			],
+			[
+				"redu",
+				"reduced_model"
+			],
+			[
+				"full",
+				"full_model"
+			],
+			[
+				"sampl",
+				"sample"
+			],
+			[
+				"FUs",
+				"FUS_kd"
+			],
+			[
+				"con",
+				"condition"
+			],
+			[
+				"session",
+				"sessionInfo"
+			],
+			[
+				"fact",
+				"factor"
+			],
+			[
+				"dxdr",
+				"dxdrdf"
+			],
+			[
+				"splicin",
+				"splicing=FALSE"
+			],
+			[
+				"disp",
+				"displayTranscripts=TRUE"
+			],
+			[
+				"DEx",
+				"DEXSeqResults"
+			],
+			[
+				"plotD",
+				"plotDispEsts"
+			],
+			[
+				"estima",
+				"estimateDispersions"
+			],
+			[
+				"est",
+				"estimateSizeFactors"
+			],
+			[
+				"files",
+				"files"
+			],
+			[
+				"coun",
+				"count"
+			],
+			[
+				"mas",
+				"mass"
+			],
+			[
+				"pro",
+				"protein"
+			],
+			[
+				"protein",
+				"protein_ids"
+			],
+			[
+				"fold",
+				"fold_change_nowash"
+			],
+			[
+				"Pro",
+				"Process"
+			],
+			[
+				"Com",
+				"Compartment"
+			],
+			[
+				"Mel",
+				"Molecular"
+			],
+			[
+				"Run",
+				"Run_1"
+			],
+			[
+				"Run_",
+				"Run_1"
+			],
+			[
+				"figure",
+				"figure"
+			],
+			[
+				"count_",
+				"count_cor_p"
+			],
+			[
+				"vsd",
+				"vsd_all"
+			],
+			[
+				"row",
+				"rownames"
+			],
+			[
+				"vs",
+				"vsd_2"
+			],
+			[
+				"anno",
+				"annotate"
+			],
+			[
+				"Se",
+				"Seq2_baseMean"
+			],
+			[
+				"SE",
+				"Seq1_baseMean"
+			],
+			[
+				"seq",
+				"seq"
+			],
+			[
+				"TRUE",
+				"TRUE"
+			],
+			[
+				"metho",
+				"method"
+			],
+			[
+				"ggpl",
+				"ggplot"
+			],
+			[
+				"se",
+				"sequencing"
+			],
+			[
+				"sequen",
+				"sequencing_1"
+			],
+			[
+				"fast",
+				"fastq"
+			],
+			[
+				"read",
+				"read1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "filterReads/summarizeNucloetideByReadLenght.py",
+			"settings":
+			{
+				"buffer_size": 1271,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "move",
+		"selected_items":
+		[
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"commen",
+				"Snippet: R Comments - Section Comment Block"
+			],
+			[
+				"comit",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"comm",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"hg",
+				"SublimeHg: Open Menu"
+			],
+			[
+				"commi",
+				"Git: Quick Commit Current File"
+			],
+			[
+				"Snippet: shell",
+				"Snippet: md_introduced_shell_chunk"
+			],
+			[
+				"html",
+				"SublimeHighlight: view as HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"R-bo",
+				"R-Box Application"
+			],
+			[
+				"knitr",
+				"knitr: Move to Next Chunk"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"sublime.log_commands(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/adomingu/imbc1/adomingues/projects/filterReads",
+		"/home/adomingu/imbc1/adomingues/projects/filterReads/filterReads"
+	],
+	"file_history":
+	[
+		"/home/adomingu/imbc1/adomingues/projects/filterReads/filterReads/__init__.py",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2016_03_almeida_TAPvsRppH/scripts/alignment_count_normalization.R",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2016_03_almeida_TAPvsRppH/doc/imb_ketting_2016_03_almeida_TAPvsRppH.md",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2014_14_almeida_smallRNA_celegans/NGSpipe2go/tools/smallRNA/countNonStructuralReads.R",
+		"/home/adomingu/imbc1/adomingues/projects/notebook/doc/celegans_pipeline.md",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2014_14_almeida_smallRNA_celegans/NGSpipe2go/modules/SmallRNAseq/read_count.vars.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2014_14_almeida_smallRNA_celegans/NGSpipe2go/modules/SmallRNAseq/read_count.module.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2014_14_almeida_smallRNA_celegans/NGSpipe2go/modules/SmallRNAseq/nucleotide_signature.vars.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2016_04_almeida_smRNA/doc/imb_ketting_2016_04_almeida_smRNA.md",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2016_04_almeida_smRNA/smallrnaseq_ce.txt",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2014_14_almeida_smallRNA_celegans/essential.vars.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/pipelines/SmallRNAseq/smallrnaseq_ce.txt",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/modules/SmallRNAseq/tool.locations.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/modules/SmallRNAseq/fastqc.vars.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/modules/SmallRNAseq/fastqc.module.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go-48b83275608aadf8d3e3ff30019ec075db2e32b9/modules/NGS/fastqc.vars.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go-48b83275608aadf8d3e3ff30019ec075db2e32b9/modules/NGS/fastqc.module.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/pipelines/SmallRNAseq/bpipe.config",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/pipelines/SmallRNAseq/smallrnaseq_v0.1.txt",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/modules/SmallRNAseq/trim_umis.module.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/modules/SmallRNAseq/trim_umis.vars.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/modules/SmallRNAseq/cutadapt.module.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/modules/SmallRNAseq/cutadapt.vars.groovy",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/pipelines/RNAseq/rnaseq_v1.2.txt",
+		"/home/adomingu/imbc1/adomingues/projects/NGSpipe2go/pipelines/RNAseq/bpipe.config",
+		"/home/adomingu/imbc1/adomingues/projects/imb_ketting_2014_14_almeida_smallRNA_celegans/README.md",
+		"/home/adomingu/imbc1/adomingues/projects/ziwi_zili_ip_tdrkh_elke/scripts/countReadsInRE.sh",
+		"/home/adomingu/imbc1/adomingues/projects/chromatin_Zf_dev/doc/chromatin_Zf_dev.md",
+		"/home/adomingu/imbc1/adomingues/projects/piRNA_length_clustering/README.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2016-02-16-significance-of-gene-overlap.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/significance-of-gene-overlap.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2015-09-24-finding-closest-element-to-a-number-in-a-list.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/about.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_drafts/r2jekyll.R",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_drafts/render_post.R",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_drafts/significance-of-gene-overlap.Rmd",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2016-02-14-significance-of-gene-overlap.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2015-02-25-install-bioconductor-packages-from-svn.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2015-03-19-chromosome-over-representation-in-DGE.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2015-04-19-install-r-packages-from-source.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2016-02-14-2016-02-12-sgnificance-of-gene-overlap.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_drafts/2016-02-12-sgnificance-of-gene-overlap.Rmd",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2016-02-12-sgnificance-of-gene-overlap.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_config.yml",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2016-02-12-2016-02-12-sgnificance-of-gene-overlap.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_drafts/2015-09-24-finding-closest-element-to-a-number-in-a-list.Rmd",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2015-01-05-nerd-up-your-r.md",
+		"/home/adomingu/Documents/github_blog/adomingues.github.io/_posts/2015-04-19-rant-about-results-tables.md",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/cuffDiff_analysis.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/compareSequencingRunsDEG.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/mappingStatsStar.R",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/parse_Star_logs.py",
+		"/home/adomingu/.config/sublime-text-2/Packages/User/pipe_in_R.sublime-snippet",
+		"/home/adomingu/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/compareRNAseqMassSpec.Rmd",
+		"/home/adomingu/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/adomingu/imbc1/adomingues/projects/general_usage_scripts/bam2bw.sh",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/bam2bw.sh",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/goTermAnalysisTutorial.Rmd",
+		"/home/adomingu/bin/knit_to_html.sh",
+		"/home/adomingu/Documents/projects/svetlana_fusKD/doc/svetlana_fusKD.md",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/star_wrapper.sh",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/degDESeq2.seq_runs.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/doc/compare_sequencing_runs.md",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/addReadGroups.sh",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/doc/igv_transcriptome.txt",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/testChromsomeOverRepresentation.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/testChromsomeOverRepresentation.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/doc/svetlana_fusKD_mapping_2nd_run.md",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/DEXSeq.r",
+		"/home/adomingu/.bashrc",
+		"/home/adomingu/.config/sublime-text-2/Packages/Highlight/README.md",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/doc/utr_miso.tex",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/degDESeq2.seq_runs.md",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/mergeDEXSeqResultsTablesForMichi.r",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/HT-Seq_count_reads_DEXSeq_mm9.sh",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/HT-Seq_count_reads_DEXSeq.sh",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/mapping_tophat.sh",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/SR_rna_seq_mapping.sh",
+		"/home/adomingu/Documents/projects/general_usage_scripts/sync_from_bioinfo.sh",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/SR_rna_seq_mapping_mm10_miso.sh",
+		"/home/adomingu/Documents/projects/general_usage_scripts/create_tindex_tophat.sh",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/compare_ensembl_vs_uniprot_id_retrieval.Rmd",
+		"/home/adomingu/Documents/projects/P381_ayelet/scripts/deseq_deg_analysis_p381_all.R",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/tidying_proteomics_results.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/bamCorrelateWrapper.sh",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/summaryAndComparisonRNAseqMassSpec.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/degDESeq2.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/RNA-SeQC_wrapper.sh",
+		"/home/adomingu/Documents/projects/P381_ayelet/doc/P381_ayelet.tex",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/results/DEG/deseq2/degDESeq2.md",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/tophat_mapping.sh",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/cuffDiff_rabt_analysis.Rmd",
+		"/home/adomingu/imbc1/adomingues/projects/general_usage_scripts/mergeFastQ.sh",
+		"/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts/QC_mapping_2nd_run.sh",
+		"/home/adomingu/Documents/projects/Tox-dam/scripts/searchSequencePosition.py",
+		"/home/adomingu/Documents/projects/Tox-dam/scripts/renamePipelineFiles.sh",
+		"/home/adomingu/Documents/projects/general_usage_scripts/sortAndIndexGTF.sh",
+		"/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts/QC_mapping.sh",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/scripts/mapping_cuff2_techrep.sh",
+		"/home/adomingu/Documents/projects/general_usage_scripts/tophatMappingBioCluster.sh",
+		"/home/adomingu/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/adomingu/Documents/projects/SR_proteins_Michi/doc/README.TXT",
+		"/home/adomingu/Documents/projects/general_usage_scripts/mergeFastq.sh",
+		"/home/adomingu/imbc1/adomingues/projects/deep_seq_pipeline/deep_seq_pipeline/src/support_scripts/merge_fastq.py",
+		"/home/adomingu/imbc1/adomingues/projects/general_usage_scripts/mergeBam.py",
+		"/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf",
+		"/home/adomingu/file",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/scripts/make_rRNA_interval.sh",
+		"/home/adomingu/Documents/projects/general_usage_scripts/create_project_directories.py",
+		"/home/adomingu/imbc1/adomingues/projects/svetlana_fusKD/doc/sortAndIndexGTF.sh",
+		"/home/adomingu/imbc1/projects/svetlana_fusKD/doc/svetlana_fusKD.md",
+		"/home/adomingu/imbc1/projects/svetlana_fusKD/scripts/mappingStatsStar.R",
+		"/home/adomingu/imbc1/projects/svetlana_fusKD/scripts/cuffDiff_rabt_analysis.Rmd",
+		"/home/adomingu/imbc1/projects/svetlana_fusKD/scripts/parse_Star_logs.py",
+		"/home/adomingu/Documents/projects/general_usage_scripts/plot_mapped_reads.R",
+		"/home/adomingu/Documents/projects/general_usage_scripts/CountMappedReads.r",
+		"/home/adomingu/imbc1/fsimb/groups/imb-kettinggr/adomingues/projects/ricardo_separate_pileup/scripts/split_mpileup_chr.py",
+		"/home/adomingu/imbc1/projects/deep_seq_pipeline/deep_seq_pipeline/src/general_scripts/createReference.py",
+		"/home/adomingu/Documents/projects/fastQC_merge/scripts/parse_fastqc_data.py",
+		"/home/adomingu/Documents/projects/general_usage_scripts/create_repo.py",
+		"/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts/clusteringOfPol3Genes.R",
+		"/home/adomingu/Documents/projects/Tox-dam/scripts/coverge_genic_vs_intergenic.r",
+		"/home/adomingu/Documents/projects/general_usage_scripts/parse_Star_logs.py",
+		"/home/adomingu/.config/sublime-text-2/Packages/User/SublimeLinter.sublime-settings",
+		"/home/adomingu/.config/sublime-text-2/Packages/Pylinter/Pylinter.sublime-settings",
+		"/home/domingue/Documents/Projects/srproteins_chip_seq/scripts/cuffDiff_amanitin_effect_biocluster.sh",
+		"/home/domingue/Documents/Projects/srproteins_chip_seq/scripts/mapAmanitinRNASeqData.sh"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open folders>,<open files>,*.R*",
+			"<open folders>,<open files>",
+			"<open folders>,<open files>,*.R*",
+			"<open folders>,<open files>",
+			"<open folders>",
+			"<open folders>,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects/SR_proteins_Michi/scripts",
+			"<open folders>,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts",
+			"<open folders>,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scrpts",
+			"<open folders>,*.sh,*.md,/home/adomingu/Documents/projects/SRproteins_ChIP_seq",
+			"<open folders>,*.sh,*.md",
+			"<open folders>,*.R,*.r",
+			"<open folders>,*.sh",
+			"<open folders>,*.sh,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects",
+			"<open folders>,*.md,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects",
+			"<open folders>,*.R*,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects",
+			"<open folders>,*.R,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects",
+			"<open folders>,*.md,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects",
+			"<open folders>,*.tex,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects",
+			"<open folders>,*.tex,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts",
+			"<open folders>,*.md,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts",
+			"<open folders>,*.R,*.r,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts",
+			"<open folders>,*.R*.r,/home/adomingu/Documents/projects/exome_seq_qc/scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts",
+			"<open folders>,*.R*.r,/home/adomingu/Documents/projects/exome_seq_qc/scripts,,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts",
+			"<open folders>",
+			"/home/adomingu/Documents/projects/general_usage_scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects/Tox-dam/scripts,*py",
+			"/home/adomingu/Documents/projects/general_usage_scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,/home/adomingu/Documents/projects/Tox-dam/scripts,*sh",
+			"/home/adomingu/Documents/projects/general_usage_scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,*.r,*.R,/home/adomingu/Documents/projects/Tox-dam/scripts",
+			"/home/adomingu/Documents/projects/general_usage_scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,*.r,/home/adomingu/Documents/projects/Tox-dam/scripts",
+			"/home/adomingu/Documents/projects/general_usage_scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,*.py,/home/adomingu/Documents/projects/Tox-dam/scripts",
+			"/home/adomingu/Documents/projects/general_usage_scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts,*.R",
+			"/home/adomingu/Documents/projects/general_usage_scripts,/home/adomingu/Documents/projects/SRproteins_ChIP_seq/scripts",
+			"/home/domingue/Documents/projects/srproteins_chip_seq,/home/domingue/Documents/projects/sr_proteins_michi,/home/domingue/Documents/projects/Tox-Dam/scripts,*.sh",
+			"/home/domingue/Documents/Projects/srproteins_chip_seq,/home/domingue/Documents/Projects/sr_proteins_michi,/home/domingue/Documents/Projects/Tox-Dam/scripts",
+			"/home/domingue/Documents/Projects/srproteins_chip_seq,/home/domingue/Documents/Projects/sr_proteins_michi,*.sh,/home/domingue/Documents/Projects/Tox-Dam/scripts",
+			"/home/domingue/Documents/Projects/srproteins_chip_seq,/home/domingue/Documents/Projects/sr_proteins_michi,*.r,*.R,/home/domingue/Documents/Projects/Tox-Dam/scripts",
+			"/home/domingue/Documents/Projects/srproteins_chip_seq,/home/domingue/Documents/Projects/sr_proteins_michi,*.r,*.R"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"list",
+			"width",
+			"colourCount",
+			"ggplot",
+			"caption",
+			"target_file",
+			"library",
+			"Library",
+			"library",
+			"Library",
+			"library",
+			"smallRNAclassCountsPercent.txt",
+			"plot",
+			"ggplo",
+			"strip.text =",
+			"      strip.text = element_text(size = 14)",
+			"RNA-seq",
+			"ESSENTIAL_FEATURES",
+			"22G_published_targets",
+			"bam2bw",
+			"het_bed",
+			"pairs_het",
+			"pairs",
+			"hits",
+			"venn",
+			"mut_filt",
+			"het",
+			"pair",
+			"10",
+			"maxcol",
+			"length",
+			"pygments",
+			"relevel",
+			"relevle",
+			"pdf(\"",
+			"ggplo",
+			"scales",
+			"\"chr\"",
+			"chrEnrichment",
+			"fold-change",
+			"Function",
+			"function",
+			"Zv9",
+			"cuff",
+			"cuffdiff2",
+			"mass_spec",
+			"fig.cap",
+			"gtf_file",
+			"Mass-Spec_vs_DESeq2",
+			"Mass-Spec",
+			"listAttributes",
+			"listFilters",
+			"venn",
+			"cuffmerge_junker",
+			"DESeq",
+			"DESEq",
+			"cuffdiff",
+			"readCufflinks",
+			"cuffmerge_junker",
+			"gtf",
+			"merge",
+			"cuffdiff",
+			"CuffDiff",
+			"cuffdiff",
+			"${TOOL_DEPENDENCIES}",
+			"output.prefix",
+			"output.dir",
+			"TRACKS",
+			"BAM2BW_CHRSIZES",
+			"fig.cap:",
+			"ggplot",
+			"down-regulated genes in chr3 would be",
+			"chrEnrichment",
+			"res",
+			"function",
+			"ensembl_gene_id",
+			"res",
+			"chromo",
+			"X.geneSymbol",
+			"pdf",
+			"chromosome",
+			"genomicscf",
+			"cuffdiff",
+			"star_w",
+			"Max Me",
+			"sjdbGTFfile",
+			"junker",
+			"jun",
+			"cuffdiff",
+			"run",
+			"star",
+			"../../mapping/star_run2_junker/*/*rg.ba*",
+			"star_run2_junker",
+			"cuffdiff",
+			"batch",
+			"Danio_rerio.Zv9.74.ImprovedUTRs.Junker_et_al_2014.noZv.so.temp.gtf",
+			"index",
+			"setkey",
+			"test",
+			"res",
+			"n",
+			"k",
+			"up",
+			".\n",
+			"biocLite",
+			"zf",
+			"dxdr2",
+			"log2fold_WT_FUS_KO",
+			"fastqc",
+			"res",
+			"groupID",
+			"dxdr",
+			"dxd2",
+			"STAR",
+			"tophat",
+			"right_kept_reads",
+			"plotCompareClusterDavid",
+			"compareClusterDavid",
+			"queryDavid",
+			"dexseq_count",
+			"knit_to_",
+			"htseq-count",
+			"DAVIDWebService",
+			"RNA-SeQC",
+			"index",
+			"compareClusterDavid",
+			"plotPCA",
+			"plotPCAWithSampleNames"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mut",
+			"output_prefix",
+			"fig.cap=",
+			"star_run1_junker",
+			"Gene",
+			"fig.cap='Fig: ",
+			"",
+			"   --",
+			"^   --",
+			"\\\\\\n--",
+			"common",
+			"\", \"",
+			", ",
+			"_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "filterReads/summarizeNucloetideByReadLenght.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1059,
+								1059
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.markdown":
+	{
+		"height": 112.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "filterReads.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sub",
+				"NGSpipe2go/modules/SmallRNAseq/subread.module.groovy"
+			],
+			[
+				"targ",
+				"NGSpipe2go/tools/smallRNA/SummarizeknownTargetsRPMs.R"
+			],
+			[
+				"pirn",
+				"NGSpipe2go/tools/piRNA/piRNA_quantification_summarization.R"
+			],
+			[
+				"cutad",
+				"NGSpipe2go/modules/SmallRNAseq/cutadapt.module.groovy"
+			],
+			[
+				"bam",
+				"scripts/bam2bw.sh"
+			],
+			[
+				"cuff",
+				"scripts/cuffDiff_rabt_analysis.Rmd"
+			],
+			[
+				"add",
+				"scripts/addReadGroups.sh"
+			],
+			[
+				"dese",
+				"scripts/degDESeq2.seq_runs.Rmd"
+			],
+			[
+				"star",
+				"scripts/star_wrapper.sh"
+			],
+			[
+				"sta",
+				"scripts/star_wrapper.sh"
+			],
+			[
+				"com",
+				"scripts/compareSequencingRunsDEG.Rmd"
+			],
+			[
+				"compate",
+				"scripts/compare_ensembl_vs_uniprot_id_retrieval.Rmd"
+			],
+			[
+				"tyd",
+				"scripts/tidying_proteomics_results.Rmd"
+			],
+			[
+				"bamc",
+				"scripts/bamCorrelateWrapper.sh"
+			],
+			[
+				"masspe",
+				"scripts/summaryAndComparisonRNAseqMassSpec.Rmd"
+			],
+			[
+				"topha",
+				"scripts/tophat_mapping.sh"
+			],
+			[
+				"interva",
+				"scripts/make_rRNA_interval.sh"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

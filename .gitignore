@@ -1,0 +1,51 @@
+syntax: glob
+*.orig
+*.rej
+*~
+*.o
+tests/*.err
+data/*
+results/*
+Oler_raw_data/*
+*temp*
+*.rda
+*.RData
+*.gff
+*.gff3
+*.pdf
+*.PDF
+*.aux
+*.dvi
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*svg
+*Rhistory
+*DS_Store
+*.bed
+*.gtf
+*.loci
+*.stats
+*.tracking
+*.loci
+*.kate-swp
+*.svg
+*.xlsx
+<<<<<<< local
+=======
+*.xls
+*.backup
+*.gz
+*.rdb
+*.rdx
+*.bbl
+*.blg
+*.ods
+*.zip
+ 
+>>>>>>> other
+ 
+syntax: regexp
+.*\#.*\#$
