@@ -6,7 +6,7 @@ from __future__ import (absolute_import, division,
                         print_function)
 import argparse
 import pysam
-# import sys
+import sys
 
 usage = '''
    Filter classes of small RNAs from library.
@@ -32,7 +32,7 @@ def getArgs():
         '-o', '--outputBam',
         required=True,
         type=str,
-        help='Output Bam file to store filtered results.'
+        help='Output Bam file to store filtered results. Use "stdout" to write output to standard out'
     )
 
     parser.add_argument(
@@ -46,10 +46,20 @@ def getArgs():
     return args
 
 
+def eprint(*args, **kwargs):
+    """
+    helper function to print to stderr
+    source:
+    https://stackoverflow.com/questions/5574702/how-to-print-to-stderr-in-python
+    """
+    print(*args, file=sys.stderr, **kwargs)
+
+
 if __name__ == '__main__':
     args = getArgs()
     in_file = args.inputBam
     out_file = args.outputBam
+
     if args.RNAclass == "21U":
         length = 21
         nucleotide_for = "T"
@@ -68,8 +78,11 @@ if __name__ == '__main__':
     piRNA_reads = 0
     other_reads = 0
 
-    inbam = pysam.Samfile(in_file, "rb")
-    outbam = pysam.Samfile(out_file, 'wb', template=inbam)
+    inbam = pysam.AlignmentFile(in_file, "rb")
+    if out_file == "stdout":
+        outbam = pysam.AlignmentFile("-", "wb", template=inbam)
+    else:
+        outbam = pysam.AlignmentFile(out_file, 'wb', template=inbam)
 
     for read in inbam.fetch():
         if (read.is_reverse is True and
@@ -85,11 +98,11 @@ if __name__ == '__main__':
         else:
             other_reads = other_reads + 1
 
-    outbam.close()
     inbam.close()
 
-    pysam.index(out_file)
+    if out_file != "stdout":
+        outbam.close()
+        pysam.index(out_file)
 
-    print("Number of %s reads: %d" % (args.RNAclass, piRNA_reads))
-    print("Number of reads filtered out: %d" % other_reads)
-    outbam.close()
+    eprint("Number of %s reads: %d" % (args.RNAclass, piRNA_reads))
+    eprint("Number of reads filtered out: %d" % other_reads)

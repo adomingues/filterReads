@@ -21,6 +21,12 @@ This creates a file in which we have exactly:
 Let's see if our script is working:
 
 ```bash
+cd imb-kettinggr/adomingues/projects/filterReads/
+
+genes="/fsimb/groups/imb-kettinggr/genomes/Caenorhabditis_elegans/Ensembl/WBcel235/Annotation/Genes/genes.gtf"
+
+python filterReads/filterSmallRNAclasses.py -i data/a.bam -o stdout -c 21U | intersectBed -abam stdin -b $genes | samtools view 
+
 python filterReads/summarizeNucleotideByReadLenght.py -i data/a.bam -o res.out
 cat res.out 
 ```
@@ -78,3 +84,42 @@ Yes it does. We have a working script. It is also very memory efficient for thes
 >     Max Processes :          1
 >     Max Threads :            1
 
+
+## filter with bed file
+
+Create example bed which should contain the `21U` and `22G` reads:
+
+```bash
+echo -e "I\t1\t1000
+I\t3500\t4000
+I\t4500\t5000" > data/a.bed
+cat data/a.bed
+```
+
+
+# Some errors
+
+Writing to `stdout` was working but reporting:
+
+>close failed in file object destructor:
+sys.excepthook is missing
+lost sys.stderr
+
+Turns it was an issue with writing to `stderr`. Solved with the function:
+
+```python
+def eprint(*args, **kwargs):
+    """
+    helper function to print to stderr
+    source:
+    https://stackoverflow.com/questions/5574702/how-to-print-to-stderr-in-python
+    """
+    print(*args, file=sys.stderr, **kwargs)
+```
+
+and replacing `print` with `eprint`:
+
+```python
+    eprint("Number of %s reads: %d" % (args.RNAclass, piRNA_reads))
+    eprint("Number of reads filtered out: %d" % other_reads)
+```
