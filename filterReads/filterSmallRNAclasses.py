@@ -36,10 +36,19 @@ def getArgs():
     )
 
     parser.add_argument(
-        '-c', '--RNAclass',
+        '-m', '--min',
         required=False,
-        type=str,
-        help='Pre-defined class of small RNAs to be output. Options: 21U, 22G or 26G'
+        type=int,
+        default=1,
+        help='Reads with length >= m will be keep.'
+    )
+
+    parser.add_argument(
+        '-M', '--max',
+        required=False,
+        type=int,
+        default=100000,
+        help='Reads with length <= M will be keep.'
     )
 
     parser.add_argument(
@@ -50,29 +59,18 @@ def getArgs():
     )
 
     parser.add_argument(
-        '-m', '--min',
-        required=False,
-        type=int,
-        default=0,
-        help='Reads with length >= m will be keep. Not implemented'
-    )
-
-    parser.add_argument(
-        '-M', '--max',
-        required=False,
-        type=int,
-        default=100000,
-        help='Reads with length <= M will be keep. Not implemented'
-    )
-
-    parser.add_argument(
         '-n', '--nuc',
         required=False,
-        type=int,
-        help='Alignments with n at the first position, or the reverse complement at the the last position if read is mapped in the reverse strand, will be kept. Not implemented'
+        type=str,
+        help='Alignments with nuc at the first position, or the reverse complement at the the last position if read is mapped in the reverse strand, will be kept.'
     )
 
     args = parser.parse_args()
+
+    if not (args.min or args.max or args.nuc):
+        parser.error(
+            'Filter option not set. Add at least one of the following filtering options:\n --min, --max or --nuc'
+            )
     return args
 
 
@@ -90,52 +88,56 @@ if __name__ == '__main__':
     in_file = args.inputBam
     out_file = args.outputBam
 
-    if args.RNAclass:
-        eprint("Using preset settings for small RNA class: %s"
-              % (args.RNAclass))
-        if args.RNAclass == "21U":
-            length = 21
+    if args.nuc:
+        if args.nuc == "T":
             nucleotide_for = "T"
             nucleotide_rev = "A"
-        elif args.RNAclass == "22G":
-            min_length = 22
-            max_length = 23
+        elif args.nuc == "A":
+            nucleotide_for = "A"
+            nucleotide_rev = "T"
+        elif args.nuc == "G":
             nucleotide_for = "G"
             nucleotide_rev = "C"
-        elif args.RNAclass == "26G":
-            length = 26
-            nucleotide_for = "G"
-            nucleotide_rev = "C"
+        elif args.nuc == "C":
+            nucleotide_for = "C"
+            nucleotide_rev = "G"
+        else:
+            eprint("Not a valid nucleotide. Use one of: A, C, G, T")
 
-
-    piRNA_reads = 0
-    other_reads = 0
 
     inbam = pysam.AlignmentFile(in_file, "rb")
+    eprint(inbam.count())
     if out_file == "stdout":
         outbam = pysam.AlignmentFile("-", "wb", template=inbam)
     else:
         outbam = pysam.AlignmentFile(out_file, 'wb', template=inbam)
 
+    reads_total = 0
+    reads_kept = 0
     for read in inbam.fetch():
-        if (read.is_reverse is True and
-                read.seq.endswith(nucleotide_rev) and
-                min_length <= read.qlen <= max_length):
-            piRNA_reads = piRNA_reads + 1
-            outbam.write(read)
-        if (read.is_reverse is False and
-                read.seq.startswith(nucleotide_for) and
-                min_length <= read.qlen <= max_length):
-            piRNA_reads = piRNA_reads + 1
-            outbam.write(read)
-        else:
-            other_reads = other_reads + 1
-
+        reads_total = reads_total + 1
+        if args.min:
+            if read.qlen < args.min:
+                continue
+        if args.max:
+            if read.qlen > args.max:
+                continue
+        if args.nuc:
+            if (
+                read.is_reverse is True and
+                read.seq.endswith(nucleotide_rev) is False):
+                continue
+            if (
+                read.is_reverse is False and
+                read.seq.startswith(nucleotide_for) is False):
+                continue
+        reads_kept = reads_kept + 1
+        outbam.write(read)
     inbam.close()
 
     if out_file != "stdout":
         outbam.close()
         pysam.index(out_file)
 
-    eprint("Number of %s reads: %d" % (args.RNAclass, piRNA_reads))
-    eprint("Number of reads filtered out: %d" % other_reads)
+    eprint("Total number of reads in input: %d" % reads_total)
+    eprint("Number of reads after filtering: %d" % (reads_kept))
