@@ -39,7 +39,6 @@ def getArgs():
         '-m', '--min',
         required=False,
         type=int,
-        default=1,
         help='Reads with length >= m will be keep.'
     )
 
@@ -47,7 +46,6 @@ def getArgs():
         '-M', '--max',
         required=False,
         type=int,
-        default=100000,
         help='Reads with length <= M will be keep.'
     )
 
