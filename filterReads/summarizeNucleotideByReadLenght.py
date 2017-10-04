@@ -26,7 +26,7 @@ def getArgs():
         '-i', '--inputBam',
         required=True,
         type=str,
-        help='Path to alignments (bam) to be filtered. The bam file needs to be indexed.'
+        help='Path to alignments (bam) to be summarized. The index needs to be present.'
     )
 
     parser.add_argument(
