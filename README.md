@@ -7,3 +7,7 @@ This is particularly useful for the analysis of _C. elegans_ small RNA analysis 
 The main script is `filterReads/filterSmallRNAclasses.py`. Another script, `filterReads/summarizeNucleotideByReadLenght.py` will determine the frequency of each nucleotide per read length from any bam file. 
 
 Use case and tutorial to come.
+
+# Dependencies
+
+- pysam (working with 0.8.1)
