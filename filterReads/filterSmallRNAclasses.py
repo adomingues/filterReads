@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
 
     inbam = pysam.AlignmentFile(in_file, "rb")
-    eprint(inbam.count())
+
     if out_file == "stdout":
         outbam = pysam.AlignmentFile("-", "wb", template=inbam)
     else:
