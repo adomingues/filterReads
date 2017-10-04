@@ -37,9 +37,39 @@ def getArgs():
 
     parser.add_argument(
         '-c', '--RNAclass',
-        required=True,
+        required=False,
         type=str,
-        help='Class of small RNAs to be output. Options: 21U, 22G or 26G'
+        help='Pre-defined class of small RNAs to be output. Options: 21U, 22G or 26G'
+    )
+
+    parser.add_argument(
+        '-l', '--length',
+        required=False,
+        type=int,
+        help='The exact length (l) of reads to be kept. Not implemented'
+    )
+
+    parser.add_argument(
+        '-m', '--min',
+        required=False,
+        type=int,
+        default=0,
+        help='Reads with length >= m will be keep. Not implemented'
+    )
+
+    parser.add_argument(
+        '-M', '--max',
+        required=False,
+        type=int,
+        default=100000,
+        help='Reads with length <= M will be keep. Not implemented'
+    )
+
+    parser.add_argument(
+        '-n', '--nuc',
+        required=False,
+        type=int,
+        help='Alignments with n at the first position, or the reverse complement at the the last position if read is mapped in the reverse strand, will be kept. Not implemented'
     )
 
     args = parser.parse_args()
@@ -60,20 +90,23 @@ if __name__ == '__main__':
     in_file = args.inputBam
     out_file = args.outputBam
 
-    if args.RNAclass == "21U":
-        length = 21
-        nucleotide_for = "T"
-        nucleotide_rev = "A"
-    elif args.RNAclass == "22G":
-        length = 22
-        nucleotide_for = "G"
-        nucleotide_rev = "C"
-    elif args.RNAclass == "26G":
-        length = 26
-        nucleotide_for = "G"
-        nucleotide_rev = "C"
-    else:
-        print("Please specify the class of small RNAs")
+    if args.RNAclass:
+        eprint("Using preset settings for small RNA class: %s"
+              % (args.RNAclass))
+        if args.RNAclass == "21U":
+            length = 21
+            nucleotide_for = "T"
+            nucleotide_rev = "A"
+        elif args.RNAclass == "22G":
+            min_length = 22
+            max_length = 23
+            nucleotide_for = "G"
+            nucleotide_rev = "C"
+        elif args.RNAclass == "26G":
+            length = 26
+            nucleotide_for = "G"
+            nucleotide_rev = "C"
+
 
     piRNA_reads = 0
     other_reads = 0
@@ -87,12 +120,12 @@ if __name__ == '__main__':
     for read in inbam.fetch():
         if (read.is_reverse is True and
                 read.seq.endswith(nucleotide_rev) and
-                read.qlen == length):
+                min_length <= read.qlen <= max_length):
             piRNA_reads = piRNA_reads + 1
             outbam.write(read)
         if (read.is_reverse is False and
                 read.seq.startswith(nucleotide_for) and
-                read.qlen == length):
+                min_length <= read.qlen <= max_length):
             piRNA_reads = piRNA_reads + 1
             outbam.write(read)
         else:
