@@ -18,7 +18,7 @@ def getArgs():
     """Parse sys.argv"""
     parser = argparse.ArgumentParser(
         description=usage,
-        formatter_class=argparse.RawDescriptionHelpFormatter
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
     parser.add_argument(
