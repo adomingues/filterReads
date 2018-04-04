@@ -60,7 +60,7 @@ def getArgs():
         '-n', '--nuc',
         required=False,
         type=str,
-        help='Alignments with nuc at the first position, or the reverse complement at the the last position if read is mapped in the reverse strand, will be kept.'
+        help='Alignments with nuc at the first position, or the reverse complement in the last position if read is mapped in the reverse strand, will be kept.'
     )
 
     args = parser.parse_args()
