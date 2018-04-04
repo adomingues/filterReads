@@ -102,7 +102,6 @@ if __name__ == '__main__':
         else:
             eprint("Not a valid nucleotide. Use one of: A, C, G, T")
 
-
     inbam = pysam.AlignmentFile(in_file, "rb")
 
     if out_file == "stdout":
@@ -123,11 +122,11 @@ if __name__ == '__main__':
         if args.nuc:
             if (
                 read.is_reverse is True and
-                read.seq.endswith(nucleotide_rev) is False):
+                    read.seq.endswith(nucleotide_rev) is False):
                 continue
             if (
                 read.is_reverse is False and
-                read.seq.startswith(nucleotide_for) is False):
+                    read.seq.startswith(nucleotide_for) is False):
                 continue
         reads_kept = reads_kept + 1
         outbam.write(read)
