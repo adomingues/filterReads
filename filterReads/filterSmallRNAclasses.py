@@ -26,14 +26,14 @@ def getArgs():
         '-i', '--inputBam',
         required=True,
         type=str,
-        help='Path to alignments (bam) to be filtered. The bam file needs to be indexed.'
+        help='Path to alignments (bam) to be filtered. The bam file needs to be indexed. Use "stdin" to read input from standard input (stream). If stdin the file is assume to be sam and the header is included. Example: samtools view -h data/ah.bam | filterReads/filterSmallRNAclasses.py -i stdin -m 21 -M21 -n "A" -p last -o stdout'
     )
 
     parser.add_argument(
         '-o', '--outputBam',
         required=True,
         type=str,
-        help='Output Bam file to store filtered results. Use "stdout" to write output to standard out'
+        help='Output Bam file to store filtered results. Use "stdout" to write output to standard out (stream).'
     )
 
     parser.add_argument(
@@ -110,7 +110,11 @@ if __name__ == '__main__':
     nucleotide = args.nucleotide
     position = args.position
 
-    inbam = pysam.AlignmentFile(in_file, "rb")
+
+    if in_file == "stdin":
+        inbam = pysam.AlignmentFile("-", "r")
+    else:
+        inbam = pysam.AlignmentFile(in_file, "rb")
 
     if out_file == "stdout":
         outbam = pysam.AlignmentFile("-", "wb", template=inbam)
