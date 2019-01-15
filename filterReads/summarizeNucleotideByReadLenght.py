@@ -26,7 +26,7 @@ def getArgs():
         '-i', '--inputBam',
         required=True,
         type=str,
-        help='Path to alignments (bam) to be summarized. The index needs to be present.'
+        help='Path to alignments (bam) to be summarized. The index needs to be present. Use "stdin" to read input from standard input (stream). If stdin the file is assumed to be sam and the header is included.'
     )
 
     parser.add_argument(
@@ -58,8 +58,11 @@ if __name__ == '__main__':
     in_file = args.inputBam
     out_file = args.output
 
-    pysam.index(in_file)
-    inbam = pysam.Samfile(in_file, "rb")
+    if in_file == "stdin":
+        inbam = pysam.AlignmentFile("-", "r")
+    else:
+        inbam = pysam.AlignmentFile(in_file, "rb")
+
     list_of_pairs = []
     for read in inbam.fetch():
         if (read.is_reverse is True):
