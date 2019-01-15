@@ -26,7 +26,7 @@ def getArgs():
         '-i', '--inputBam',
         required=True,
         type=str,
-        help='Path to alignments (bam) to be filtered. The bam file needs to be indexed. Use "stdin" to read input from standard input (stream). If stdin the file is assume to be sam and the header is included. Example: samtools view -h data/ah.bam | filterReads/filterSmallRNAclasses.py -i stdin -m 21 -M21 -n "A" -p last -o stdout'
+        help='Path to alignments (bam) to be filtered. The bam file needs to be indexed. Use "stdin" to read input from standard input (stream). If stdin the file is assumed to be sam and the header is included. Example: samtools view -h data/ah.bam | filterReads/filterSmallRNAclasses.py -i stdin -m 21 -M21 -n "A" -p last -o stdout'
     )
 
     parser.add_argument(
